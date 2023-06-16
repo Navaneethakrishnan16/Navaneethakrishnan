@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: dodgerblue;
+        }
+        .login{
+           background-color: white;
+           position: absolute;
+           left: 32%;
+           top: 25%;
+           width: 35%;
+           height: auto;
+        }
+        input, button{
+            margin: 20px;
+            width: 90%;
+            height: 35px;
+            border: none;
+            background-color: rgb(228, 226, 226);
+            font-size: 16px;
+        }
+    button{
+        background-color: dodgerblue;
+        color: white ;
+        cursor: pointer;
+    }
+    button:hover{
+        border: 1px solid dodgerblue;
+        background-color: white;
+        color: dodgerblue;
+    }
+        .login a{
+            margin: 10px;
+            display: block;
+            color: rgb(167, 161, 161);
+            text-align: center;
+        }
+        .signin{
+            position: absolute;
+            top: 78%;
+            left: 37%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="homePage.html">
+        <div class="login">
+            <h1 style="font-size: 25px; text-align: center; color: rgb(163, 164, 165); font-size: 35px;">login Form</h1>
+           
+            <input type="text" placeholder="Username">
+           
+            <input type="password" placeholder="Password">
+            <button>Sign In</button>
+            <a href="#">Lost Your password ?</a>
+        </div>
+        <div class="signin">
+        <h3 style="color: white;">Don't have an account? <a href="#" style="color: white;">Sign up here!</a></h3>
+    </div>
+    </form>
+</body>
+</html>
