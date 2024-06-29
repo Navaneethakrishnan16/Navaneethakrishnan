@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            color: black;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            max-width: 40%;
+        }
+        .dark-mode{
+            background-color: black;
+            color: white;
+        }
+        button{
+            border: none;
+            padding: 13px 20px;
+            font-weight: 500;
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: cadetblue;
+            color: white; 
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Toggle button</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sequi at dolorem. Rerum nobis ea architecto ipsum, a enim beatae, qui excepturi animi cum sit distinctio fuga repellat hic. Ullam!</p>
+
+    <button onclick="toggle()">Dark mode</button>
+
+    <script>
+        function toggle(){
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
