@@ -3,8 +3,13 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css'
 import '../ReactReveal/ReactReveal.css'
 
+
+
 function ReactReveal() {
   return (
+    //npm i react-vertical-timeline-component(to install the vertical timeline)
+
+
     <div className='verticaltimeline'>
         <VerticalTimeline >
             <VerticalTimelineElement
